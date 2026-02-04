@@ -1,6 +1,6 @@
 import { Product, Category } from './types';
 
-export const CURRENCY = "ر.س";
+export const CURRENCY = "د.م.";
 
 export const CATEGORIES: { id: Category; label: string }[] = [
   { id: 'ALL', label: 'الكل' },

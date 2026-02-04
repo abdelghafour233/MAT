@@ -186,7 +186,7 @@ const CheckoutModal: React.FC<CheckoutModalProps> = ({
                         id="city"
                         required
                         className="block w-full pr-10 border-gray-300 rounded-lg focus:ring-primary focus:border-primary sm:text-sm py-2 border shadow-sm"
-                        placeholder="الرياض، جدة..."
+                        placeholder="الدار البيضاء، الرباط، طنجة..."
                         value={formData.city}
                         onChange={handleInputChange}
                       />
@@ -206,7 +206,7 @@ const CheckoutModal: React.FC<CheckoutModalProps> = ({
                         required
                         dir="ltr"
                         className="block w-full pr-10 border-gray-300 rounded-lg focus:ring-primary focus:border-primary sm:text-sm py-2 border shadow-sm text-right"
-                        placeholder="05XXXXXXXX"
+                        placeholder="06XXXXXXXX"
                         value={formData.phoneNumber}
                         onChange={handleInputChange}
                       />
