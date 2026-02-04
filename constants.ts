@@ -10,6 +10,26 @@ export const CATEGORIES: { id: Category; label: string }[] = [
   { id: 'MISC', label: 'متنوعة' },
 ];
 
+export const MOROCCAN_CITIES = [
+  "الدار البيضاء",
+  "الرباط",
+  "طنجة",
+  "مراكش",
+  "أكادير",
+  "فاس",
+  "مكناس",
+  "وجدة",
+  "القنيطرة",
+  "تطوان",
+  "الجديدة",
+  "المحمدية",
+  "سلا",
+  "الناظور",
+  "بني ملال",
+  "آسفي",
+  "مدينة أخرى"
+];
+
 export const PRODUCTS: Product[] = [
   {
     id: '1',
