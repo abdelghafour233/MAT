@@ -32,8 +32,8 @@ const App: React.FC = () => {
       }
       return [...prev, { ...product, quantity: 1 }];
     });
-    // Optional: Open cart automatically on add
-    // setIsCartOpen(true);
+    // Open cart immediately to show feedback (Buy Now behavior)
+    setIsCartOpen(true);
   };
 
   const handleRemoveFromCart = (id: string) => {
