@@ -131,15 +131,15 @@ const App: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center">
           <div className="flex items-center gap-2 mb-6">
             <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center text-white font-bold text-lg">
-              م
+              S
             </div>
-            <span className="text-xl font-bold tracking-tight">متجري</span>
+            <span className="text-xl font-bold tracking-tight">STOREHALAL</span>
           </div>
           <p className="text-gray-400 text-sm mb-8 text-center max-w-md">
             متجرك الأول للتسوق الإلكتروني. نوفر لك أحدث المنتجات بجودة عالية وأسعار منافسة مع خدمة التوصيل السريع.
           </p>
           <div className="text-gray-500 text-sm">
-            &copy; {new Date().getFullYear()} متجري. جميع الحقوق محفوظة.
+            &copy; {new Date().getFullYear()} STOREHALAL. جميع الحقوق محفوظة.
           </div>
         </div>
       </footer>

@@ -14,9 +14,9 @@ const Navbar: React.FC<NavbarProps> = ({ cartCount, onCartClick }) => {
           {/* Logo */}
           <div className="flex items-center gap-3">
             <div className="w-9 h-9 bg-primary rounded-lg flex items-center justify-center text-white font-bold text-xl shadow-inner border border-green-400/30">
-              م
+              S
             </div>
-            <span className="text-2xl font-bold tracking-tight text-white">متجري</span>
+            <span className="text-2xl font-bold tracking-tight text-white">STOREHALAL</span>
           </div>
 
           {/* Cart Button */}
