@@ -187,28 +187,7 @@ const CheckoutModal: React.FC<CheckoutModalProps> = ({
                       </div>
                     </div>
 
-                    {/* Phone Field */}
-                    <div>
-                      <label htmlFor="phoneNumber" className="block text-sm font-bold text-gray-700 mb-2">رقم الهاتف</label>
-                      <div className="relative">
-                        <div className="absolute inset-y-0 right-0 pr-4 flex items-center pointer-events-none">
-                          <Phone className="h-5 w-5 text-gray-400" />
-                        </div>
-                        <input
-                          type="tel"
-                          name="phoneNumber"
-                          id="phoneNumber"
-                          required
-                          dir="ltr"
-                          className="block w-full pr-12 pl-4 border-gray-200 rounded-xl focus:ring-2 focus:ring-primary/20 focus:border-primary sm:text-base py-3.5 border bg-white shadow-sm transition-shadow text-right placeholder:text-right"
-                          placeholder="06XXXXXXXX"
-                          value={formData.phoneNumber}
-                          onChange={handleInputChange}
-                        />
-                      </div>
-                    </div>
-
-                    {/* City Dropdown */}
+                    {/* City Dropdown - Moved Up */}
                     <div>
                       <label htmlFor="city" className="block text-sm font-bold text-gray-700 mb-2">المدينة</label>
                       <div className="relative">
@@ -231,6 +210,27 @@ const CheckoutModal: React.FC<CheckoutModalProps> = ({
                         <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
                           <ChevronDown className="h-5 w-5 text-gray-400" />
                         </div>
+                      </div>
+                    </div>
+
+                    {/* Phone Field - Moved Down */}
+                    <div>
+                      <label htmlFor="phoneNumber" className="block text-sm font-bold text-gray-700 mb-2">رقم الهاتف</label>
+                      <div className="relative">
+                        <div className="absolute inset-y-0 right-0 pr-4 flex items-center pointer-events-none">
+                          <Phone className="h-5 w-5 text-gray-400" />
+                        </div>
+                        <input
+                          type="tel"
+                          name="phoneNumber"
+                          id="phoneNumber"
+                          required
+                          dir="ltr"
+                          className="block w-full pr-12 pl-4 border-gray-200 rounded-xl focus:ring-2 focus:ring-primary/20 focus:border-primary sm:text-base py-3.5 border bg-white shadow-sm transition-shadow text-right placeholder:text-right"
+                          placeholder="06XXXXXXXX"
+                          value={formData.phoneNumber}
+                          onChange={handleInputChange}
+                        />
                       </div>
                     </div>
                   
